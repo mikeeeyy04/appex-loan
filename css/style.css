@@ -538,6 +538,10 @@ header {
     .header__left p {
         margin-bottom: 1.3rem;
     }
+    
+    .header__right-image {
+        width: 80%;
+    }
 
     /*=============================== CATEGORIES ========================*/
     .categories__right {
