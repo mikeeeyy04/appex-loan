@@ -526,7 +526,7 @@ header {
 
     /*================================= HEADER ========================*/
     header {
-        height: 100vh;
+        height: 110vh;
     }
 
     .header__container {
@@ -539,9 +539,6 @@ header {
         margin-bottom: 1.3rem;
     }
     
-    .header__right-image {
-        margin-top: -1rem;
-    }
 
     /*=============================== CATEGORIES ========================*/
     .categories__right {
