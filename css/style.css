@@ -342,7 +342,7 @@ header {
 /*=========================== NAVBAR ====================================*/
 
 .categories {
-    background: var(--bg1);
+    background: rgb(236, 236, 236);
     height: 41rem;
 }
 
@@ -509,10 +509,6 @@ header {
         width: 100%;
     }
 
-    .menu {
-        width: 50%;
-    }
-
     .action-btn .btn2 {
         display: none;
     }
@@ -559,11 +555,6 @@ header {
 
     .container {
         width: var(--container-width-sm);
-    }
-
-    .menu {
-        padding: 1rem -50rem;
-        justify-content: center;
     }
 
     .logo {
