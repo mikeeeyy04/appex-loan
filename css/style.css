@@ -539,7 +539,7 @@ header {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 200px) {
 
     .container {
         width: var(--container-width-sm);
