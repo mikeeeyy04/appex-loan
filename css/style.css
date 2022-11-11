@@ -104,6 +104,10 @@ img {
     width: 40%;
 }
 
+.logo1 {
+    display: none;
+}
+
 button {
     cursor: pointer;
 }
@@ -441,6 +445,8 @@ header {
         font-size: 1.2rem;
     }
 
+  
+
 
 
     /*=============== NAVBAR ====================*/
@@ -465,13 +471,17 @@ header {
     /*================================= HEADER ========================*/
 
     header {
-        height: 52vh;
+        height: 60vh;
         margin-bottom: 4rem;
     }
 
     .header__container {
-        gap: 0;
+        gap: 3rem;
         padding-bottom: 3rem;
+    }
+
+    .header__right-image {
+        width: 100%;
     }
 
     /*================================= CATEGORIES ========================*/
@@ -500,7 +510,12 @@ header {
     }
 
     .logo {
-        width: 100%;
+        display: none;
+    }
+
+    .logo1 {
+        display: block;
+        width: 20%;
     }
 
     .menu {
@@ -539,7 +554,7 @@ header {
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 300px) {
 
     .container {
         width: var(--container-width-sm);
@@ -550,12 +565,19 @@ header {
         justify-content: center;
     }
 
-    .logo {
+    .logo1 {
         width: 100%;
+        display: block;
+    }
+
+    .logo {
+        display: none;
     }
 
     .nav__menu {
         right: 3%;
     }
+
+
 }
 
