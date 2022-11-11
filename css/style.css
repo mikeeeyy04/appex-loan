@@ -540,7 +540,7 @@ header {
     }
     
     .header__right-image {
-        margin-bottom: 2rem;
+        margin-top: -1rem;
     }
 
     /*=============================== CATEGORIES ========================*/
