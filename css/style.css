@@ -406,7 +406,7 @@ header {
 
 /*======================== MEDIA QUERIES TABLET ============================*/
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1480px) {
     header {
         top: 6.5rem;
         height: 60vh;
@@ -526,7 +526,7 @@ header {
 
     /*================================= HEADER ========================*/
     header {
-        height: 110vh;
+        height: 100vh;
     }
 
     .header__container {
@@ -538,7 +538,6 @@ header {
     .header__left p {
         margin-bottom: 1.3rem;
     }
-    
 
     /*=============================== CATEGORIES ========================*/
     .categories__right {
